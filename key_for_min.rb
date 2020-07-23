@@ -8,7 +8,7 @@ hash_3 = {}
 def key_for_min_value(name_hash)
 min_value = ""
 name_hash.each do |key, value|
- if value == hash.min()
+ if value == hash
   min_value = key  
 end
 end
