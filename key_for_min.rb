@@ -6,5 +6,6 @@ name_hash.each_key do |key, value|
 if  key == name_hash.min
   key_for_min_value = key 
 end
+end
 key_for_min_value
 end
