@@ -6,11 +6,11 @@ hash_2 = {:blake => 10, :ashley => 50, :adam => 17}
 hash_3 = {}
 
 def key_for_min_value(name_hash)
-min_value = ""
 name_hash.each do |key, value|
  if value = 1
-  min_value = key  
+  puts key  
+elsif value = 17 
 end
 end
-min_value
+
 end
