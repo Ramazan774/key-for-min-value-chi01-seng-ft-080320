@@ -11,6 +11,8 @@ name_hash.each do |key, value|
    elsif min_value > value
    answer = key
    min_value = value
+   elsif hash.empty?
+   return nil 
 end
 end
 answer
