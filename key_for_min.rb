@@ -10,7 +10,7 @@ name_hash.each do |key, value|
  if value = 1||10
   puts key  
 elsif value = nil
-puts nil
+puts "nil"
 
 end
 end
