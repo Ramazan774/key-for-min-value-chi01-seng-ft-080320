@@ -3,5 +3,10 @@
 
 def key_for_min_value(name_hash)
   hash = {:blake => 500, :ashley => 2, :adam => 1}
-  key_for_min_value(hash)
+  hash.each do |key, value|
+    if value == hash.min()
+      key_for_min_value = value
+end
+end
+key_for_min_value
 end
